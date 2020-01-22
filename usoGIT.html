@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<title>Uso de la consola del GIT</title>
+	<meta charset="utf-8">
+	<meta name="Author" content="Sandra">
+</head>
+<body>
+	<p>El repositorio fisico que tenemos en GIT (local) es donde crearemos los archivos, realizaremos las modificaciones, y añadiremos nuevos archivos o commitearemos las modificacioes oportunas.</p>
+<hr>
+	<h1>comandos para la consola de GIT</h1>
+			<ol>$git bash= para abrir consola en la carpeta del repositorio local</ol>
+			<ol>$git clone= para clonar el repositorio origins, el que se encuentra en el servidor</ol>
+			<ol>$git add= para añadir un nuevo archivo</ol>
+			<ol>$git pull= para tarer un archuvo al repositorio mlocal desde el repositorio del servidor</ol>
+			<ol>$git commit -a= commitear todas las modificaciones</ol>
+			<ol>$git commit 'file'= para comitar solo un archivo especifico</ol>
+			<ol>$git push= para subir el archivo del repositorio local al repositorio de la nube</ol>
+			<ol>$git status= para coner el estado del repositorio local</ol>
+			<ol>$git fetch= para preguntar por la existencia de cambios en remoto</ol>
+<hr>	
+	<h1> pasos a seguir en la consola de GIT</h1>
+		<ol><b>Primer paso: </b>Clonar el repositorio remoto en una carpeta local. Primero crearemos una carpeta llamada git en el disco c:. A continuacion abriremos el menu secundario dentro de dicha carpeta, seleccionaremos el 'GIT Bash Here', que nos abrira la consola de GIT en esa carpeta. En la consola de GIT solicitaremos que nos clone el repositorio, a traves del comando '$git clone' añadiendo la URL que nos proporciona el repositorio remoto. Una vez clonado el repositorio deberemos abrir la carpeta creada con el repositorio, y volver a accionar el menu secundario, seleccionando de nuevo 'GIT Bash Here'. Y ya tendremos la consola preparada para poder trabajar en GIT</ol>
+		<ol><b>Segundo paso: </b> Crearemos un archivo html en dicha carpeta, por ejemplo: 'file.html'. Para poder añadirlo al repositorio local, abrimeros la consola GIt y primero comprobaremos el estado de nuestro repositorio con el comando '$git status'. Que nos dira que en la rama maestro de nuestro repositorio hay un archivo nuevo. y nos dara opciones de como añadirlo. lo haremos a traves del comando '$git add'. En caso de existir más de un archivo nuevo podremos usar el comando '$git add --all' que nos añadira todo los archivos existentes. </ol>
+		<ol><b>Tercer paso: </b>Una vez tengamos los archivos añadicos al repositorionlocal deberemos comprometerlos, o preparlos, para ser añadidos al repositorio del servidor. Para ellos en la consola GIT usaremos el comando '$git commit -a' que nos preparara todos los archivos para ser subidos. Se nos abrira el IDE que estemos usando con GIT, en nuestro caso el Visual Studio Code, donde deberemos añadir el mensaje o comentario que deseamos que se añada con el nuevo cambio. Guardaremos el archivo del Visual Studio Code, y cerraremos el IDE. A continuacion la consola de GIT nos notificará que ha habido una modificacion y cambio, asi como el mensaje que hayamos añadido.</ol>
+		<ol><b>Cuarto paso: </b>Para poder subir el archivo de nuestro repositorio local al repositorio del servidor deberemos usar el comando '$git push' en la consola, tras unso segundos nos notificará que ha sido una subida exitosa. Para poder comprobarlo deberemos abrir nuetsra cuenta GITHUB y en nuestro repositorio actualizar. Alli nos aparecera el archivo o archivos que hayamos subido. En la pestaña de HISTORIAL, nos aparecera las acciones que habremos realizado, asi como los comentarios del mismo.</ol>
+		<ol><b>Quinto paso: </b>si hemos realizado, nosotros a alguien que colabore en nuetsro proyecto,y queremos tener las actualizaciones de código. Tendremos que abrir nuetsra consola GIT en nuestra carpeta de repositorio local y usar el comando '$git pull' para "traernos" las modificaciones. Si no sabemos si existen o no modificaciones, se lo podremos preguntar a la consola GIT con el comando '$git fetch', que nos comunicará si existen los cambios o no.</ol>
+</body>
+</html>
