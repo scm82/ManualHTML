@@ -1,8 +1,8 @@
 /*aqui añadiremos los estilos que deseamos para nuestra pagina
 */
-body {color: black;
-       background-color: whitesmoke 
+body {
+      color: black;
+      background-color: whitesmoke;
+      font-family: 'Courier New', Courier, monospace, "Times New Roman",
+    Times, serif;  
     }
-body{font-family: 'Courier New', Courier, monospace, "Times New Roman",
-    Times, serif;
-}
