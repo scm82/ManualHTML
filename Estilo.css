@@ -1,8 +1,15 @@
 /*aqui añadiremos los estilos que deseamos para nuestra pagina
 */
+head {
+  border: solid, aquamarine; 
+
+}
 body {
       color: black;
       background-color: whitesmoke;
       font-family: 'Courier New', Courier, monospace, "Times New Roman",
-    Times, serif;  
+    Times, serif; 
     }
+pre.s{
+  width: 75% ;
+}
