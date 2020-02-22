@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Index</title>
+        <meta charset="utf-8">
+        <meta name="Author" content="Sandra">
+        <link type="text/css" rel="stylesheet" href="Estilo.css"> 
+    </head>
+    <body>
+        <h1>StyleSheet:CSS</h1>
+       <div id="normal">
+           <p>Las hojas de estilo son aquellos documentos en los que definimos el estilo que tendra nuestro documento HTML.</p>
+           <p>Su funcionamiento es: </p>
+       </div>
+       <ol start="a">
+           <li>En documentos html se escriben las etiquetas que queremos que nos defina los elementos.</li>
+           <li>En el documento CSS escribiremos como queremos que sea el estilo que impere en todo el documento.</li>
+           <li>Anñadiremos el enlace a ala hoja de estilo que queremos usar.</li>
+       </ol>
+       <div id="normal">
+           <p>Entre las ventajas que nos ofece el poder realizar un archivo css es contar con un diseño consistente y facilmente modificable, sin tener que busrcar linea por linea en nuestro codigo HTML.</p>
+       </div>
+       <h3>Sintaxis de las hojas de estilo:</h3>
+       <div id="normal">
+           <p>Las hojas de estilo son las paradojas del css, ya que para poder dar estilo o formato a nuestro arcivo o documento html, lo haremos en un documeto llamado <i>"plano</i>, ya que es una hoja sin formato. un ejemplo de ello seria:</p>
+           <table border="5">
+            <tbody>
+                <tr>
+                    <td>h1 { color: black, background-color:white; }</td>
+                </tr>
+            </tbody> 
+           </table>
+           <p>Lo primero que debemos observar a la hora de confromar nuestra <strong>Hoja de Estilo</strong>, es que esta debe tener una o varias sentencas que nos determinen que formato adquiere nuestro documento Html.</p>
+           <p>Hay dos tipos de sentencias que nos encontraremos en CSS: </p> 
+        </div>
+        <ol start="*">
+            <li>Sentencias de @</li>
+            <li>Sentencias de reglas</li>
+        </ol>
+        <div id="normal">
+            <p>Las <b>sentencias @</b> empiezan por dicho simbolo tipografico seguido de un identificador y finaliza por un punto y coma. Debemos tener en cuenta que las sentecias @ referidas a <b>@import</b> y <b>@nameespace</b>, han de colocarse al principio de la hoja css. El resto de sentencias @ pueden colocarse en cualquier linea.</p>
+            <p>Las <b>sentecnias de reglas</b> estan formadas por un selector y un bloque de declaracion que estara entre llaves {}</p>
+            <p>Las declaraciones seran de una o cvarias propiedas con sus correspondientes valores, separados por ";". Ademas debemos recoradar que cada propiedad se separa de su valor con el simbolo ":".</p>
+            <p>Si por un casual tuvieramos una propiedad con varios valores diferesntes,o alternativos, estos se separarrias por ",".</p>
+        </div>
+        <table border="3">
+            <thead>h1{ color: black;}</thead>
+            <tbody>
+                <tr>
+                    <td>h1</td> <td>Sentencias</td>
+                </tr>
+                <tr>
+                    <td>color</td><td>propiedad</td>
+                </tr>
+                <tr>
+                    <td>:</td><td>separacion entre la propiedad y su valor</td>
+                </tr>
+                <tr>
+                    <td>;</td><td>separacion entre propiedades</td>
+                </tr>               
+            </tbody> 
+           </table>
+        <h3>Estilos en cascada</h3>
+        <div id="normal">
+            <p>Los formatos depende de las combinaciones de todas las propiedades que atañen al docuemnto. Las <b>Hojas de Estilo en Cascada</b> son aquellas que abarcan un elemento.</p>
+            <p>Por ejemplo si determinamos que el fondo lo queremos en color azul en el "body" del documento y los parrafos en negro, lo haremos:</p>
+        </div>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>body {</td>
+                </tr>
+                <tr>
+                    <td>color: white; }</td>
+                </tr>
+                <tr>
+                    <td>p{</td>
+                </tr>
+                <tr>
+                    <td>background-color: lightcoral;}</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Para definir varios selectores simultaneos</h3>
+        <div id="normal">
+            <p>Podemos definir varios selectores a la ves, escribiendolos y separandolos por una coma.</p>
+        </div>
+        <table id="1">
+            <tbody>
+                <tr>
+                    <td>p, address {</td>
+                </tr>
+                <tr>
+                    <td>color: red;}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body> 
+    </html>
