@@ -7,10 +7,15 @@ body{
     margin-left: 1%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+header
+{
+color:mediumblue;
+font: 3.5em sans-serif;
+}
 h1
 {
 color:midnightblue;
-font: 3em sans-serif;
+font: 2.5em sans-serif;
 }
 h2
 {
@@ -44,6 +49,22 @@ line-height: 0.7em;
 float: left;
 margin: 0.1em;
 color: navy;
+}
+.ejemplo
+{
+color:black;
+background-color: cornsilk;
+font-size: 1.15em;
+}
+pre
+{
+Color:steelblue;
+font-size: 1.25em;
+}
+section
+{
+color:rgb(10, 48, 119);
+font-size: 1.35em;
 }
 p
 {
