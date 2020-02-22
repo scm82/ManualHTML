@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Index</title>
+        <title>StyleSheet</title>
         <meta charset="utf-8">
         <meta name="Author" content="Sandra">
         <link type="text/css" rel="stylesheet" href="Estilo.css"> 
@@ -65,19 +65,19 @@
             <p>Los formatos depende de las combinaciones de todas las propiedades que atañen al docuemnto. Las <b>Hojas de Estilo en Cascada</b> son aquellas que abarcan un elemento.</p>
             <p>Por ejemplo si determinamos que el fondo lo queremos en color azul en el "body" del documento y los parrafos en negro, lo haremos:</p>
         </div>
-        <table border="1">
+        <table border="0">
             <tbody>
                 <tr>
-                    <td>body {</td>
+                    <td>body </td>
                 </tr>
                 <tr>
-                    <td>color: white; }</td>
+                    <td>{ color: white; }</td>
                 </tr>
                 <tr>
-                    <td>p{</td>
+                    <td>p</td>
                 </tr>
                 <tr>
-                    <td>background-color: lightcoral;}</td>
+                <td>{ background-color: lightcoral;}</td>
                 </tr>
             </tbody>
         </table>
@@ -85,18 +85,56 @@
         <div id="normal">
             <p>Podemos definir varios selectores a la ves, escribiendolos y separandolos por una coma.</p>
         </div>
-        <table id="1">
+        <table id="0">
             <tbody>
                 <tr>
-                    <td>p, address {</td>
+                    <td>p, address </td>
                 </tr>
                 <tr>
-                    <td>color: red;}</td>
+                    <td>{ color: red;}</td>
                 </tr>
             </tbody>
         </table>
         <div id="normal">
-            <p>para poder difinr varias propiedad de una misma sentencias lo haremos</p>
+            <p>para poder definir varias propiedad de una misma sentencias lo haremos</p>
         </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>p</td>
+                </tr>
+                <tr>
+                    <td>{border-top: red 3px solid;</td>
+                </tr>
+                <tr>
+                    <td>border-bottom: red 3px solid;}</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Repetir Selectores</h3>
+        <div id="normal">
+            <p>El formato ideal seria no tener que repetir selectores, ya qye se distribuyen la informacion en variuos lugares de la hoja d eestilo, dificultando la lectura e interpretacion de la hoja de estilos. El navegador aplicará la propiedad de la ultima sentecia queencuentre.</p>
+        </div>
+        <h3>Comentarios</h3>
+        <div id="normal">
+            <p>Realizaremos comentarios para aclarar los puntos que queden confusos a la hora de leerlo, o en caso de firmar nuestros documentos.</p>
+            <p>Para poder comentar utilizaremos los simbolos <b>/* ... */</b></p>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>/* Autor: Pascacio de Ravena, Fecha: 22 de Febrero de 2020 */</td>
+                </tr>
+                <tr>
+                    <td>h1{</td>
+                </tr>
+                <tr>
+                    <td>background-color:black; /*fondo negro*/</td>
+                </tr>
+                <tr>
+                    <td>color: white;} /*Texto blanco*/</td>
+                </tr>
+            </tbody>
+        </table>
     </body> 
-    </html>
+</html>
