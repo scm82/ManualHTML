@@ -38,12 +38,41 @@ ol
 color:mediumslateblue;
 font: 1em sans-serif;
 margin-left: 2%;
+list-style-type: circle;
+}
+ul 
+{
+color: mediumslateblue;
+font: 1em sans-serif;
+margin-left: 2%;
+list-style-type: circle;
 }
 li
 {
 color:mediumslateblue;
 font: 0.75em sans-serif;
 margin-left: 8.5%;
+}
+dl
+{
+color:mediumslateblue;
+font: 1em sans-serif;
+margin-left: 2%;
+list-style-type: circle;   
+}
+dt
+{
+color:mediumslateblue;
+font: 1em sans-serif;
+margin-left: 2%;
+list-style-type: circle;
+}
+dd
+{
+color:mediumslateblue;
+font: 1em sans-serif;
+margin-left: 2%;
+list-style-type: circle;
 }
 #normal p:first-letter
 {
@@ -54,6 +83,10 @@ line-height: 0.7em;
 float: left;
 margin: 0.1em;
 color: navy;
+}
+.fondo
+{
+background-image: image("manual.png");
 }
 .ejemplo
 {

@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Listas</title>
+        <meta charset="utf-8">
+        <meta name="Author" content="Sandra">
+        <link type="text/css" rel="stylesheet" href="estilos.css"> 
+    </head>
+    <body>
+        <table border="3">
+            <tbody>
+                <tr>
+                    <td>Consola GIT</td>
+                    <td>Definicion</td>
+                    <td>Sintaxix</td>
+                    <td>Formatos Basicos</td>
+                    <td>Listas</td>
+                    <td>Enlaces</td>
+                    <td>Imagenes</td>
+                    <td>Tablas</td>
+                    <td>Formularios</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Listas HTML</h1>
+        <div id="normal">
+            <p>Nos permiten crear agrupaciones de elementos conformando una lista dentro de nuestra pagina. Seria conveniente que fueranprecedidos de po un guion o de un número.</p>
+            <p>Los tipos de lista que podemos encontrarnos son:</p>
+        </div>
+            <ol start="*">
+                <li>ordenadas</li>
+                <li>desordenadas</li>
+                <li>de definiciones</li>
+            </ol>
+        <h2>Listas ordenadas:</h2>
+        <div id="normal">
+            <p>Son las que nos muestran los elementos de las listan en un orden. Recomendacion es hacer la lsita alfanumerica.</p>
+            <p>Estas listas van determinadas por: &lt;ol&gt; ... &lt;/ ol&gt;<br> cada uo de los elementos que nos encontraremos dentro de esta lista iran precedidos por las etiquetas: &lt;li&gt; ... &lt;li&gt;</p>
+            <p>Un ejemplo de ello puede ser:</p>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>&lt;ol start="1"&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;Evaristo&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;Marcos&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;Maria&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;Athenea&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;/ol&gt;</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="normal">
+            <p>Quedando:</p>
+        </div>
+        <ol start="1">
+            <li>Evaristo</li>
+            <li>Marcos</li>
+            <li>Maria</li>
+            <li>Athenea</li>
+        </ol>
+        <p>El atributo <b>start</b> nos inicializa la lista numerica por el numero que le determinemos como valor del atributo.</p>
+        <p>De la misma manera podemos inicilizar la lista determinando el tipo de lista que deseamos con el atributo <b>type</b>.</p>
+        <p>Para que nuestras listas aparezcan ordenada en letras Mayuscula usando type=A, ordenadas en letras minusculas usando Type=a, para listas decimales type=1, para listas ordenadas con numero romanos en minusculas type=i, y en numros romanos en mayusculas type=I</p>
+        <p>ordenada en minusculas</p>
+        <ol type="a">
+            <li>Evaristo</li>
+            <li>Marcos</li>
+            <li>Maria</li>
+            <li>Athenea</li>
+        </ol>
+        <p>ordenada en mayusculas</p>
+        <ol type="A">
+            <li>Evaristo</li>
+            <li>Marcos</li>
+            <li>Maria</li>
+            <li>Athenea</li>
+        </ol>
+        <p>ordenada en numeros romanos en minusculas</p>
+        <ol type="i">
+            <li>Evaristo</li>
+            <li>Marcos</li>
+            <li>Maria</li>
+            <li>Athenea</li>
+        </ol>
+        <p>ordenada en numero romanos en mayusculas</p>
+        <ol type="I">
+            <li>Evaristo</li>
+            <li>Marcos</li>
+            <li>Maria</li>
+            <li>Athenea</li>
+        </ol>
+        <p>Tambien podemos hacer que la ordenación este inversa usando el atributo <b>reserved</b>.</p>
+        <p>Obteniendo:</p>
+        <ol reversed>
+            <li>Evaristo</li>
+            <li>Marcos</li>
+            <li>Maria</li>
+            <li>Athenea</li>
+        </ol>
+        <h2>Listas Desordenadas</h2>
+        <div id="normal">
+            <p>Estas listas nos sirven para mostrar elementos sin ningun tipo de orden, generalmente prevenidos por una viñeta que puede ser un punto, o cuadrado, o asteriscos...</p>
+            <p>Para ellos usaremos las etiquetas &lt;ul&gt; ... &lt;/ul&gt;. Para los elementosque tendremos dentro de las listas desordenadas, &lt;li&gt; ... &lt;li&gt;</p>
+        </div>
+        <ul>
+            <li>blanco</li>
+            <li>azul</li>
+            <li>morado</li>
+            <li>amarillo</li>
+        </ul>
+        <h2>Listas de Definiciones</h2>
+        <div id="normal">
+            <p>Estas listas nos sirven para estructurar listas en las que tenemos el valor y la definion. Son listaspara definir terminos, a modo de diccionario. Para ello usaremos la etiqueta &lt;dl&gt; ... &lt;dl&gt;. Son listas de elementos anidados para determinar que tipo de datos trataremos usaremos <b>dt</b> para determinar el valor, y <b>dd</b> para las definiciones.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>&lt;dl&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dt&gt; Termino 1&lt;/dt&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dd&gt;Definición 2&lt;/dd&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dt&gt;Termino 2&lt;/dt&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;dd&gt;Definicion 2&lt;/dd&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/dl&gt;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Obteniendo asi:</p>
+        </div>
+        <dl>
+            <dt>Celofan:</dt>
+            <dd>Polímero natural derivado de la celulosa. Tiene el aspecto de un film (como el que se usa para envolver bocadillos) fino, transparente, flexible y resistente a esfuerzos de tracción.</dd>
+            <dt>Gadriel:</dt>
+            <dd>Literalmente "muro de Dios ", figura como uno de los jefes de los Vigilantes Caídos. Esto se representa en la segunda sección del " Libro de Enoc ", "Parábolas". Se dice que fue responsable de engañar a Eva .</dd>
+        </dl> 
+        <h2>Listas Anidadas</h2>
+        <div id="normal">
+            <p>Es el siguiente nivel del manejo de las listas. Se pueden hacer listas anidadas, solamente tendremos que hacer una lista dentro de otra. hay que tener cuidado a la hora de anidar las lsitas, para que no se gener codif¡go fraudulento. Pueden ser cualquier tipo de lista y sin limite de anidacion.</p>
+            <p>Un ejemplo de ello es:</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Carnivoro</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;León&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Buitre&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Hiena&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/ul&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Herbivoro</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Cabra&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Vaca&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Conejo&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/ul&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Omnivoro</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Oso&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Urraca&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;li&gt;Hombre&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/ul&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/li&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;/ul&gt;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+        <ul>
+            <li>Carnívoro
+                <ul>
+                    <li>León</li>
+                    <li>Buitre</li>
+                    <li>Hiena</li>
+                </ul>
+            </li>
+            <li>Herbívoro
+                <ul>
+                    <li>Cabra</li>
+                    <li>Vaca</li>
+                </ul>
+            </li>
+            <li>Omnívoro
+                <ul>
+                    <li>Oso</li>
+                    <li>Urraca</li>
+                </ul>
+            </li>
+          </ul>
+        <footer><a href="index.html">RETORNO A INDICE</a></footer>        
+    </body>
+</html>
