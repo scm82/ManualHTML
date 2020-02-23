@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Index</title>
+        <meta charset="utf-8">
+        <meta name="Author" content="Sandra">
+        <link type="text/css" rel="stylesheet" href="estilos.css"> 
+    </head>
+    <body>
+        <table border="3">
+            <tbody>
+                <tr>
+                    <td><a href="usoGit.html">Consola GIT</a></td>
+                    <td><a href="definicion HTML.html">Definicion</a></td>
+                    <td><a href="sintaxis html.html">Sintaxix</a></td>
+                    <td><a href="formatos_basicos.html">Formatos Basicos</a></td>
+                    <td><a href="listas.html">Listas</a></td>
+                    <td><a href="enlaces">Enlaces</a></td>
+                    <td><a href="Imagenes.html">Imagenes</a></td>
+                    <td><a href="tablas.html">Tablas</a></td>
+                    <td><a href="formularios">Formularios</a></td>
+    
+                </tr>
+            </tbody>
+        </table>
+        <h1>FORMULARIOS</h1>
+        <h4>Sintaxis</h4>
+            <div id="normal">
+                <p>La estructura de los formularios es:</p>
+                <ol>
+                    <li>&lt;form&gt;...&lt;/form&gt;</li>
+                </ol>
+            </div>
+            <h4>Campos de formularios</h4>
+            <div id="normal">
+                <p>Encontramos:</p>
+                <ol start="1">
+                    <li>campos de entrada de datos:
+                        <li>campos de texto</li>
+                        <li>contraseñas</li>
+                        <li>checkbox</li>
+                        <li>radios</li>
+                        <li>botones de envío</li>
+                        <li>botones de borrado</li>
+                        <li>ficheros</li>
+                        <li>campos ocultos</li>
+                        <li>imágenes</li>           
+                    </li>
+                    <li>area de texto</li>
+                    <li>combos de seleccion</li>
+                </ol>
+            </div>
+            <h4>Campos de entrada de datos:</h4>
+            <div id="normal">
+                <p>sintaxis</p>
+            </div>
+            <ol>
+                <li>&lt;input type="tipo" id="identificador"size="tamaño" name="nombre value="texto por defecto"/&gt;</li>
+            </ol>
+            <div id="normal">
+                <p>atributos:</p>
+            </div>
+                <ol start="i">
+                    <li><b>type:</b> text, password, checkbox, radio, submit, reset, file, hidden, image, button</li>
+                    <li><b>id:</b>identificador de campo.</li>
+                    <li><b>size:</b> tamaño de la pagina, número de caracteres.</li>
+                    <li><b>name:</b>nombre que se enciara del formulario al servidor.</li>
+                    <li><b>value:</b>valor por defecto.</li>
+                </ol>
+                <div id="normal">
+                    <p>campo de texto:</p>
+                </div>
+                <ol>
+                    <li>&lt;input type="tipo" id="identificador" size="tamaño" name="nombre"/&gt;</li>
+                </ol>
+                <div id="normal">
+                    <p>contraseñas:</p>
+                </div>
+                <ol>
+                    <li>&lt; input type="password" id="identificador"  size="tamaño" v/&gt;</li>
+                </ol>
+                <div id="normal">
+                    <p>checkbox</p>
+                </div>
+                <ol>
+                    <li>&lt;input type="checkbox" id="identificador" name="nombre" checked="checked"/&gt;</li>
+                </ol>
+                <div id="normal">
+                    <p>radios:</p>
+                </div>
+                <ol>
+                    <li>&lt;input type="radio" id="identificador" value="valor" name="nombre"/&gt;</li>
+                </ol>
+                <div id="normal">
+                    <p>ficheros::</p>
+                </div>
+                <ol>
+                    <li>&lt;input type="file" id="identificador" value="valor" name="nombre"/&gt;</li>
+                </ol>
+                <div id="normal">
+                    <p>campos ocultos:</p>
+                </div>
+                <ol>
+                    <li>&lt;input type="hidden" id="identificador" value="valor" name="nombre"/&gt;</li>
+                </ol>
+                <div id="normal">
+                    <p>imágenes:</p>
+                </div>
+                <ol>
+                    <li>&lt;input type="image" scr="url-image" name="nombre" alt="texto_alternativo"/&gt;</li>
+                </ol>
+            <h4>Áreas de texto:</h4>
+            <div id="normal">
+                <p>sintaxis</p>
+            </div>
+            <ol>
+                <li>&lt;textarea rows="numerofilas" cols="numerocolumnas" name="nombre"&gt;&lt;/textarea&gt;</li>
+            </ol>
+            <div id="normal">
+                <p>atributos:</p>
+            </div>
+            <ol>
+                <li>rows, número de filas</li>
+                <li>cols, numero de columnas</li>
+                <li>name, nombre</li>
+            </ol>
+            <h4>Combos de opciones:</h4>
+            <div id="normal">
+                <p>sintaxis</p>
+            </div>
+            <ol>
+                <li>&lt;select name="nombre" size="valores" multiple="multiple"&gt;&lt;/select&gt;</li>
+            </ol>
+            <div id="normal">
+                <p>atributos:</p>
+            </div>
+            <ol>
+                <li>rows, número de filas</li>
+                <li>cols, numero de columnas</li>
+                <li>name, nombre</li>
+            </ol>
+            <div id="normal">
+                <p>elemento option:</p>
+            </div>
+            <ol>
+                <li>&lt;select name="nombre" size="valores" multiple="multiple"&gt;
+                    <li>&lt;option label="etiqueta" value="valor" &gt;&lt;/option&gt;</li>
+                &lt;/select&gt;</li>                 
+            </ol>
+            <div id="normal">
+                <p>elemento optgroup:</p>
+            </div>
+            <ol>
+                <li>&lt;select name="nombre" size="valores" multiple="multiple"&gt;
+                    <li>&lt;optgroup label="etiqueta"&gt;</li>
+                    <li>&lt;option&gt; value="valor" &gt;&lt;/option&gt;</li>
+                    <li>&lt;optgroup/&gt;</li>
+                <li>&lt;/select&gt;</li>                 
+            </ol>
+                       
+        <footer>
+            <img src="retorno.jpg"  width="100" height="100"alt="Retorno al Indice" usemap="#retorno">
+        <map name="retorno">
+            <area shape="circle" coords="50,50,50" href="index.html" alt="Retorno al Indice">
+        </map>
+        <p>Retorno al Indice</p>
+        </footer>          
+    </body>
+</html>

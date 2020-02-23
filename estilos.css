@@ -102,6 +102,11 @@ dd
     margin-left: 2%;
     
 }
+div
+{
+    height: 100px;
+    width: 200px;
+  }
 #normal p:first-letter
 {
     text-transform: uppercase;
