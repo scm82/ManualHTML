@@ -1,7 +1,7 @@
-@font-face {
-    font-family: "siberya";
-    src: url("._siberya.otf");
-}
+@font-face
+{ 
+    font-family: Russo One;src:url(russo-one-v8-latin-regular.woff);
+}  
   
 body
 {
@@ -11,119 +11,118 @@ body
     margin-right: 1%;
     margin-bottom: 10%;
     margin-left: 1%;
-    font-family: "siberya";
+    font-family:'Russo One', sans-serif;
 }
 header
 {
-color:mediumblue;
-font: 3.5em sans-serif;
+    color:red;
+    font-size: 3.5em;
 }
 h1
 {
-color:midnightblue;
-font: 2.5em sans-serif;
+    color:red;
+    font-size: 2.5em ;
 }
 h2
 {
-color:mediumslateblue;
-font: 2em sans-serif;
+    color:maroon;
+    font-size: 2em ;
 }
 h4
 {
-    color:darkcyan;
-    font: 2em;
+    color:maroon;
+    font-size: 2em;
 }
 table
 {
-border-color: navy;
-color:black;
-background-color: lavenderblush;
+    border-color:red;
+    color:black;
+    background-color: lightpink;
 }
 ol
 {
-color:mediumslateblue;
-font: 1em sans-serif;
-margin-left: 2%;
-list-style-type: circle;
+    color: firebrick;
+    font-size: 1em;
+    margin-left: 2%;
+    list-style-type: circle;
 }
 ul 
 {
-color: mediumslateblue;
-font: 1em sans-serif;
-margin-left: 2%;
-list-style-type: circle;
+    color: firebrick;
+    font-size: 1em;
+    margin-left: 2%;
+    list-style-type: circle;
 }
 li
 {
-color:mediumslateblue;
-font: 0.75em sans-serif;
-margin-left: 8.5%;
+    color:firebrick;
+    font-size: 0.75em;
+    margin-left: 8.5%;
 }
 dl
 {
-color:mediumslateblue;
-font: 1em sans-serif;
-margin-left: 2%;
-list-style-type: circle;   
+    color:firebrick;
+    font-size: 1em;
+    margin-left: 2%;
+    list-style-type: circle;   
 }
 dt
 {
-color:mediumslateblue;
-font: 1em sans-serif;
-margin-left: 2%;
-list-style-type: circle;
+    color:firebrick;
+    font-size: 1em;
+    margin-left: 2%;
+    list-style-type: circle;
 }
 dd
 {
-color:mediumslateblue;
-font: 1em sans-serif;
-margin-left: 2%;
-list-style-type: circle;
+    color:firebrick;
+    font-size: 1em;
+    margin-left: 2%;
+    list-style-type: circle;
 }
 #normal p:first-letter
 {
-text-transform: uppercase;
-font-size: 3em;
-font-weight: bold;
-line-height: 0.7em;
-float: left;
-margin: 0.1em;
-color: navy;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 0.7em;
+    float: left;
+    margin: 0.1em;
+    color:red;
 }
 .fondo
 {
-background-image: image("manual.png");
+    background-image: image("manual.png");
 }
 .ejemplo
 {
-color:black;
-background-color: cornsilk;
-font-size: 1.15em;
+    color:black;
+    background-color: cornsilk;
+    font-size: 1.15em;
 }
 pre
 {
-Color:steelblue;
-font-size: 1.25em;
+    color:darkred;
+    font-size: 1.25em;
 }
 section
 {
-color:rgb(10, 48, 119);
-font-size: 1.35em;
+    color:black;
+    font-size: 1.35em;
 }
 p
 {
-color:steelblue;
-font:1em sans-serif;
-margin-left: 1%;
+    color:black;
+    margin-left: 1%;
 }
 a
 {
-color:rosybrown;
-margin:1em;
+    color:red;
+    margin:1em;
 }
 footer
 {
-color:red;
-font:0.5em;
-margin-left: 15em;
+    color:red;
+    font-size:0.5em;
+    margin-left: 15em;
 }
