@@ -30,14 +30,14 @@
        <ol start="a">
            <li>En documentos html se escriben las etiquetas que queremos que nos defina los elementos.</li>
            <li>En el documento CSS escribiremos como queremos que sea el estilo que impere en todo el documento.</li>
-           <li>Anñadiremos el enlace a ala hoja de estilo que queremos usar.</li>
+           <li>Añadiremos el enlace a la hoja de estilo que queremos usar.</li>
        </ol>
        <div id="normal">
-           <p>Entre las ventajas que nos ofece el poder realizar un archivo css es contar con un diseño consistente y facilmente modificable, sin tener que busrcar linea por linea en nuestro codigo HTML.</p>
+           <p>Entre las ventajas que nos ofrece el poder realizar un archivo CSS es contar con un diseño consistente y fácilmente modificable, sin tener que buscar línea por línea en nuestro código HTML.</p>
        </div>
        <h3>Sintaxis de las hojas de estilo:</h3>
        <div id="normal">
-           <p>Las hojas de estilo son las paradojas del css, ya que para poder dar estilo o formato a nuestro arcivo o documento html, lo haremos en un documeto llamado <i>"plano</i>, ya que es una hoja sin formato. un ejemplo de ello seria:</p>
+           <p>Las hojas de estilo son las paradojas del CSS, ya que para poder dar estilo o formato a nuestro archivo o documento HTML, lo haremos en un documento llamado <i>"plano"</i>, ya que es una hoja sin formato. Un ejemplo de ello sería:</p>
            <table border="5">
             <tbody>
                 <tr>
@@ -45,7 +45,7 @@
                 </tr>
             </tbody> 
            </table>
-           <p>Lo primero que debemos observar a la hora de confromar nuestra <strong>Hoja de Estilo</strong>, es que esta debe tener una o varias sentencas que nos determinen que formato adquiere nuestro documento Html.</p>
+           <p>Lo primero que debemos observar a la hora de confromar nuestra <strong>Hoja de Estilo</strong>, es que esta debe tener una o varias sentencias que nos determinen que formato adquiere nuestro documento HTML.</p>
            <p>Hay dos tipos de sentencias que nos encontraremos en CSS: </p> 
         </div>
         <ol start="*">
@@ -53,10 +53,10 @@
             <li>Sentencias de reglas</li>
         </ol>
         <div id="normal">
-            <p>Las <b>sentencias @</b> empiezan por dicho simbolo tipografico seguido de un identificador y finaliza por un punto y coma. Debemos tener en cuenta que las sentecias @ referidas a <b>@import</b> y <b>@nameespace</b>, han de colocarse al principio de la hoja css. El resto de sentencias @ pueden colocarse en cualquier linea.</p>
-            <p>Las <b>sentecnias de reglas</b> estan formadas por un selector y un bloque de declaracion que estara entre llaves {}</p>
-            <p>Las declaraciones seran de una o cvarias propiedas con sus correspondientes valores, separados por ";". Ademas debemos recoradar que cada propiedad se separa de su valor con el simbolo ":".</p>
-            <p>Si por un casual tuvieramos una propiedad con varios valores diferesntes,o alternativos, estos se separarrias por ",".</p>
+            <p>Las <b>sentencias @</b> empiezan por dicho símbolo tipográfico seguido de un identificador y finaliza por un punto y coma. Debemos tener en cuenta que las sentecias @ referidas a <b>@import</b> y <b>@nameespace</b>, han de colocarse al principio de la hoja CSS. El resto de sentencias @ pueden colocarse en cualquier línea.</p>
+            <p>Las <b>sentencias de reglas</b> están formadas por un selector y un bloque de declaración que estará entre llaves { }.</p>
+            <p>Las declaraciones serán de una o varias propiedades con sus correspondientes valores, separados por " ; ". Además debemos recoradar que cada propiedad se separa de su valor con el simbolo " : ".</p>
+            <p>Si por un casual tuvieramos una propiedad con varios valores diferentes o alternativos, estos se separarias por " , ".</p>
         </div>
         <table border="3">
             <thead>h1{ color: black;}</thead>
@@ -68,17 +68,17 @@
                     <td>color</td><td>propiedad</td>
                 </tr>
                 <tr>
-                    <td>:</td><td>separacion entre la propiedad y su valor</td>
+                    <td>:</td><td>separación entre la propiedad y su valor</td>
                 </tr>
                 <tr>
-                    <td>;</td><td>separacion entre propiedades</td>
+                    <td>;</td><td>separaciónn entre propiedades</td>
                 </tr>               
             </tbody> 
            </table>
         <h3>Estilos en cascada</h3>
         <div id="normal">
-            <p>Los formatos depende de las combinaciones de todas las propiedades que atañen al docuemnto. Las <b>Hojas de Estilo en Cascada</b> son aquellas que abarcan un elemento.</p>
-            <p>Por ejemplo si determinamos que el fondo lo queremos en color azul en el "body" del documento y los parrafos en negro, lo haremos:</p>
+            <p>Los formatos depende de las combinaciones de todas las propiedades que atañen al documento. Las <b>Hojas de Estilo en Cascada</b> son aquellas que abarcan un elemento.</p>
+            <p>Por ejemplo si determinamos que el fondo lo queremos en color azul en el "body" del documento y los párrafos en negro, lo haremos:</p>
         </div>
         <table border="0">
             <tbody>
@@ -86,19 +86,19 @@
                     <td>body </td>
                 </tr>
                 <tr>
-                    <td>{ color: white; }</td>
+                    <td>{ color: black; }</td>
                 </tr>
                 <tr>
                     <td>p</td>
                 </tr>
                 <tr>
-                <td>{ background-color: lightcoral;}</td>
+                <td>{ background-color: blue;}</td>
                 </tr>
             </tbody>
         </table>
-        <h3>Para definir varios selectores simultaneos</h3>
+        <h3>Para definir varios selectores simultáneos</h3>
         <div id="normal">
-            <p>Podemos definir varios selectores a la ves, escribiendolos y separandolos por una coma.</p>
+            <p>Podemos definir varios selectores a la vez, escribiendolos y separandolos por una coma.</p>
         </div>
         <table id="0">
             <tbody>
@@ -111,7 +111,7 @@
             </tbody>
         </table>
         <div id="normal">
-            <p>para poder definir varias propiedad de una misma sentencias lo haremos</p>
+            <p>Para poder definir varias propiedades de una misma sentencias lo haremos:</p>
         </div>
         <table>
             <tbody>
@@ -128,7 +128,7 @@
         </table>
         <h3>Repetir Selectores</h3>
         <div id="normal">
-            <p>El formato ideal seria no tener que repetir selectores, ya qye se distribuyen la informacion en variuos lugares de la hoja d eestilo, dificultando la lectura e interpretacion de la hoja de estilos. El navegador aplicará la propiedad de la ultima sentecia queencuentre.</p>
+            <p>El formato ideal sería no tener que repetir selectores, ya que se distribuyen la información en varios lugares de la hoja de estilo, dificultando la lectura e interpretación de la hoja de estilos. El navegador aplicará la propiedad de la última sentecia que encuentre.</p>
         </div>
         <h3>Comentarios</h3>
         <div id="normal">

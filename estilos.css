@@ -32,10 +32,29 @@ h2
     color:maroon;
     font-size: 2rem ;
 }
+h3
+{
+    color:maroon;
+    
+}
 h4
 {
     color:maroon;
-    font-size: 2rem;
+    
+}
+h5
+{
+ color: maroon;
+
+}
+h6
+{
+    color: maroon;
+}
+section 
+{
+    color:maroon;
+    font-size: 2rem ;  
 }
 table
 {
@@ -48,7 +67,6 @@ ol
     color: firebrick;
     font-size: 1rem;
     margin-left: 2%;
-    list-style-type: circle;
 }
 ul 
 {
@@ -68,21 +86,21 @@ dl
     color:firebrick;
     font-size: 1rem;
     margin-left: 2%;
-    list-style-type: circle;   
+       
 }
 dt
 {
     color:firebrick;
     font-size: 1rem;
     margin-left: 2%;
-    list-style-type: circle;
+  
 }
 dd
 {
     color:firebrick;
     font-size: 1rem;
     margin-left: 2%;
-    list-style-type: circle;
+    
 }
 #normal p:first-letter
 {
