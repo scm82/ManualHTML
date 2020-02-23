@@ -164,6 +164,40 @@
             <ol>
                 <li>&lt;td colspans="2"&gt;contenido de la celda&lt;/td&gt;</li>
             </ol>
+            <h2>Tablas avanzadas</h2>
+       <div id="normal">
+        <p>Cuando ya dominemos las tablas simples y avanzadas, podremos pasar a complicar un poco mas las tablas en HTML, para ello podemos empezar con las tablas avanzadas. Estas básicamente cubren el resto de opciones que las tablas básicas no pueden. Ayudar a usuarios no visibles, determinar el ancho de las tablas...</p>
+       <p>En primer lugar, en nuestras tablas avanzadas podremos crear <b>grupos de filas</b> a través el elemento <b>tr<b>. Las filas las podemos agrupar en 3 partes:</p>
+       </div>
+        <ol>
+         <li><b>Cabeceras</b>, a través del elemento <b>thead</b>.</li>
+         <li><b>Cuerpo</b>, con el elemento <b>tbody</b>.</li>
+         <li><b>Pie</b>, con el elemento <b>tfoot</b>.</li>
+       </ol>
+     <div id="normal">  
+     <p>Cada elemento tendrá una o más filas, en función de lo que queramos agrupar.La estructura seria</p>
+     </div>  
+          <ol>
+          <li>&lt;thead&gt;</li>
+          <li>&lt;tr&gt;...&lt;/tr&gt;</li>
+          <li>&lt;/thead&gt;</li>
+          <li>&lt;tbody&gt;</li>
+          <li>&lt;tr&gt;...&lt;/tr&gt;</li>
+          <li>&lt;/tbody&gt;</li>
+          <li>&lt;tfoot&gt;</li>
+          <li>&lt;tr&gt;...&lt;/tr&gt;</li>
+          <li>&lt;/tfoot&gt;</li>
+    <div id="normal">
+        <p>Si bien es recomendable ponerlas en ese orden siempre, que es como lo visualizara e interpretara el navegador, no es necesario.</p>
+        <p>También podemos agrupar las columnas con relación semántica. Para ello usaremos el elemento <b>colgroup</b> con el atributo <b>span</b> definiendo además el ancho de las columnas con <b>width</b>.</p>
+        <p>En el atributo <b>span</b> definiremos el numero de columnas que representa las agrupación, de izquierda a derecha. con el atributo <b>width>/b>conseguiremos especificar el ancho para la columna agrupada.</p>
+        <p>El código quedaría:</p>
+    </div>
+        <p> &lt;colgroup span="numeroColumnas" width="anchoColumna"&gt;</p>
+    <div id="normal">
+        <p>En caso de querer manipular los estilos gráficos de las columnas, podemos recurrir a usar el elemento <b>col</b>, que se alojaría dentro del elemento <b>colgroup</b>.</p>
+        <p>el atributo que definiremos con el elemento <b>col</b>, será el atributo <b>width</b>. </p>
+    </div>
         <footer>
             <img src="retorno.jpg"  width="100" height="100"alt="Retorno al Indice" usemap="#retorno">
         <map name="retorno">
