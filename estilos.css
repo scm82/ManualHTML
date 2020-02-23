@@ -1,20 +1,17 @@
 @font-face {
     font-family: "siberya";
     src: url("._siberya.otf");
-  }
+}
   
-  p {
-    font-family: "siberya", cursive;
-    font-size: 150%;
-  }
-body{
+body
+{
     color:black;
     background-color: whitesmoke;
     margin-top: 5%;
     margin-right: 1%;
     margin-bottom: 10%;
     margin-left: 1%;
-    font-family: "siberya regular";
+    font-family: "siberya";
 }
 header
 {
