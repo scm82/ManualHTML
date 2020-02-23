@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+    <head>
+        <title>tablas</title>
+        <meta charset="utf-8">
+        <meta name="Author" content="Sandra">
+        <link type="text/css" rel="stylesheet" href="estilos.css"> 
+    </head>
+    <body>
+        <table border="3">
+            <tbody>
+                <tr>
+                    <td><a href="usoGit.html">Consola GIT</a></td>
+                    <td><a href="definicion HTML.html">Definicion</a></td>
+                    <td><a href="sintaxis html.html">Sintaxix</a></td>
+                    <td><a href="formatos_basicos.html">Formatos Basicos</a></td>
+                    <td><a href="listas.html">Listas</a></td>
+                    <td><a href="enlaces">Enlaces</a></td>
+                    <td><a href="Imagenes.html">Imagenes</a></td>
+                    <td><a href="tablas.html">Tablas</a></td>
+                    <td><a href="formularios">Formularios</a></td>
+    
+                </tr>
+            </tbody>
+        </table>
+        <h1>Tablas</h1>
+            <div id="normal">
+                <p>Son elementos que utilizaremos en nuestra pagina para poder tener informacion agrupada, independientemente del tipo de datos que sea. para ellos usaremos la etiqueta <b>table</b>.</p>
+            </div>
+            <h2>Tablas Simples</h2>
+            <div id="normal">
+                <p>Se conforman de tres elementos que se engloban uno dentro de otros. el primer elemento importe es <b>table</b>.</p>
+            </div>
+            <p>&lt;table&gt; ...&lt;/table&gt;</p>
+            <div id="normal">
+                <p>En segundo lugar nos encontraremos con el elemento <b>tr</b>, que nos determina las filas que tendran nuestra tabla.</p>
+            </div>
+            <ol>
+                <li>&lt;table&gt;</li>
+                <li>&lt;tr&gt;...&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;...&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;...&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+            </ol>
+            <div id="normal">
+                <p>Por ultimo tendremos el elemento <b>td</b>, el cual hace referencia a las celdas que tendremos en nuetsra tabla. Lo que escribamos entre las etiquetas <b>td</b> será el contenido que estara reflejado en cada una de las celdas</p>
+            </div>
+            <ol>
+                <li>&lt;table&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;...e1...&lt;/td&gt;</li>
+                <li>&lt;td&gt;...e2...&lt;/td&gt;</li>
+                <li>&lt;td&gt;...e3...&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+            </ol>
+            <table>
+                <tr>
+                    <td>...e1...</td>
+                </tr>
+                <tr>
+                    <td>...e2...</td>
+                </tr>
+                <tr>
+                    <td>...e3...</td>
+                </tr>
+            </table>
+            <h2>Tablas básicas</h2>
+            <div id="normal">
+                <p>Como ya sabemos hacer una tabla simple, podemos añadir algunos elementos ams que nos ayudaran a crear las tablas como deseamos.</p>
+                <p>Para ello, lo primero que haremos sera bautizar a nuestra tabla. Ponerle un titulo. Usaremos la etiqueta <b>caption</b>.</p>
+            </div>
+            <ol>
+                <li>&lt;table&gt;</li>
+                <li>&lt; caption&gt;Ejemplo&lt;/caption&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;...e1...&lt;/td&gt;</li>
+                <li>&lt;td&gt;...e2...&lt;/td&gt;</li>
+                <li>&lt;td&gt;...e3...&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+            </ol>
+            <table border="2">
+                <caption>Ejemplo</caption>
+                <tr>
+                    <td>...e1...</td>
+                </tr>
+                <tr>
+                    <td>...e2...</td>
+                </tr>
+                <tr>
+                    <td>...e3...</td>
+                </tr>
+            </table>
+            <div id="normal">
+                <p>Cuando ya tenga nuestra tabla nombre, podemos crear un resumen de los datos contenido en ella. Lo haremos a traves del atributo <b>summary</b>.Aunque no lo parezca es un atributo de gran importancia ya que las paginas web seran interpretadas por aplicaciones y programas para personas con discapacidad, y por lo general los datos o la informacion que contendra nuestra tabla puede ser complicado de interpretar.</p>
+                <p>Su sintesxis de código es:</p>
+            </div>
+            <ol>
+                <li>&lt;table summary:"Tabla con datos ejemplo"&gt;</li>
+                <li>&lt; caption&gt;Ejemplo&lt;/caption&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;...e1...&lt;/td&gt;</li>
+                <li>&lt;td&gt;...e2...&lt;/td&gt;</li>
+                <li>&lt;td&gt;...e3...&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+            </ol>
+            <table summary="Tabla con datos ejemplo" border="2">
+                <caption>Ejemplo</caption>
+                <tr>
+                    <td>...e1...</td>
+                </tr>
+                <tr>
+                    <td>...e2...</td>
+                </tr>
+                <tr>
+                    <td>...e3...</td>
+                </tr>               
+            </table>
+            <h2></h2>
+            <div id="normal">
+                <p>Otro de los elementosque podemos usar en nuestras tablas basicas es el atributo <b>th</b>, que identifica la primer fila, o la fila que seleccionemos como cabecera de nuestra tablas.</p>
+                <p>un ejemplo seria:</p>
+            </div>
+            <ol>
+                <li>&lt;table&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th&gt;Cabecera 1&lt;/th&gt;</li>
+                <li>&lt;th&gt;Cabecera 2&lt;/th&gt;</li>
+                <li>&lt;th&gt;Cabecera 3&lt;/th&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;F1 C1&lt;/td&gt;</li>
+                <li>&lt;td&gt;F1 C2&lt;/td&gt;</li>
+                <li>&lt;td&gt;F1 C3&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+            </ol>
+            <table border="2">
+                <tr>
+                  <th>Cabecera 1</th>
+                  <th>Cabecera 2</th>
+                  <th>Cabecera 3</th>
+                </tr>
+                <tr>
+                  <td>F1 C1</td>
+                  <td>F1 C2</td>
+                  <td>F1 C3</td>
+                </tr>
+              </table>
+              <h4>Otros atributos</h4>
+              <div id="normal">
+                <p>Hay atributos que nos especifican aun mas las cabeceras, o nos ayudan a adarle a la tabla un formato mas acorde con lo que queremos, agrupando celdas. es e caso de los atributos <b>scope</b> y <b>colspan</b>.</p>
+                <p><b>Scope</b> nos ayuda a explicar la informacion que hay en lsa filas o columnas de nuestra tabla. se ubica en la primer celda, y lo haremos añadiendo al elemento <b>td</b> el atributo <b>scope=" col"</b>, para columnas, <b>"row</b>, para filas, o <b>"colgroup"</b>, para todas las columnas o <b>"rowgroup"</b>, para todas las filas.</p>
+            </div>
+            <ol>
+                <li>&lt;td scope="col"&gt;contenido random de la celda&lt;/td&gt;</li>
+            </ol>
+            <div id="normal">
+                <p><b>Colspan</b> nos permite agrupar celdas como podemos hacer en una excel normal.Sun funcionamiento es el mismo, ya que debemos saber cuantos espacion ocupara nuestras celdas. este atributo uira siempre el el elemento <b>td</b> que queramos combinar.</p>
+            </div>
+            <p>Ejemplo:</p>
+            <ol>
+                <li>&lt;td colspans="2"&gt;contenido de la celda&lt;/td&gt;</li>
+            </ol>
+        <footer>
+            <img src="retorno.jpg"  width="100" height="100"alt="Retorno al Indice" usemap="#retorno">
+        <map name="retorno">
+            <area shape="circle" coords="50,50,50" href="index.html" alt="Retorno al Indice">
+        </map>
+        <p>Retorno al Indice</p>
+        </footer>          
+    </body>
+</html>
